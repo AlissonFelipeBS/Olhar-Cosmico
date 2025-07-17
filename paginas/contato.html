@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olhar Cósmico - Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="short icon" href="../img/short icon.png">
+</head>
+<body>
+    <header>
+        <h1>Olhar Cósmico</h1>
+        <p>Explorando o Cosmos</p>
+    </header>
+
+    <section class="main-container">
+        <nav>
+            <ul class="menu-principal">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Explorar ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="planetas.html">Planetas</a></li>
+                        <li><a href="galaxias.html">Galáxias</a></li>
+                        <li><a href="curiosidades.html">Curiosidades</a></li>
+                    </ul>
+                </li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Entre em Contato</h2>
+                <article>
+                    <h3>Fale Conosco</h3>
+                    <p>Tem alguma pergunta sobre astronomia? Quer compartilhar uma descoberta? Entre em contato conosco!</p>
+                    
+                    <form id="formulario-contato">
+                        <fieldset>
+                            <legend>Informações Pessoais</legend>
+
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(99)99999-9999" required pattern="\d{2}\d{9}" title="Formato: (99)99999-9999" required>
+
+                            <label for="idade">Idade:</label>
+                            <input type="number" id="idade" name="idade" min="1" max="120">
+
+                            <label for="data-nascimento">Data de Nascimento:</label>
+                            <input type="date" id="data-nascimento" name="data-nascimento">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Interesse em Astronomia</legend>
+
+                            <label for="nivel-interesse">Nível de Interesse:</label>
+                            <select id="nivel-interesse" name="nivel-interesse">
+                                <option value="">Selecione...</option>
+                                <option value="iniciante">Iniciante</option>
+                                <option value="intermediario">Intermediário</option>
+                                <option value="avancado">Avançado</option>
+                                <option value="profissional">Profissional</option>
+                            </select>
+
+                            <label for="areas-interesse">Áreas de Interesse:</label>
+                            <section class="checkbox-group">
+                                <input type="checkbox" id="planetas" name="areas-interesse" value="planetas">
+                                <label for="planetas">Planetas</label>
+
+                                <input type="checkbox" id="galaxias" name="areas-interesse" value="galaxias">
+                                <label for="galaxias">Galáxias</label>
+
+                                <input type="checkbox" id="estrelas" name="areas-interesse" value="estrelas">
+                                <label for="estrelas">Estrelas</label>
+
+                                <input type="checkbox" id="buracos-negros" name="areas-interesse" value="buracos-negros">
+                                <label for="buracos-negros">Buracos Negros</label>
+                            </section>
+
+                            <label for="mensagem">Sua Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos sobre seu interesse em astronomia ou faça sua pergunta..."></textarea>
+                        </fieldset>
+
+                        <section class="botoes-formulario">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </section>
+                    </form>
+
+                    <section id="dados-enviados" style="display: none;">
+                        <h3>Dados Enviados:</h3>
+                        <article id="resultado-formulario"></article>
+                    </section>
+                </article>
+            </section>
+        </main>
+    </section>
+
+    <footer>
+        <p>Olhar Cósmico &copy; 2025 - Todos os direitos reservados.</p>
+        <section class="footer-links">
+            <h3>Minhas Redes</h3>
+            <ul>
+                <li><a href="https://github.com/AlissonFelipeBS" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/felipe-brand%C3%A3o-04204a176/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </section>
+    </footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
