@@ -1,9 +1,9 @@
-# AstroDivulga - Explorando o Cosmos 🌌
+# Olhar Cosmico - Explorando o Cosmos 🌌
 
 ## Português
 
 ### Descrição
-O **AstroDivulga** é um site de divulgação científica focado em Astronomia, desenvolvido como projeto acadêmico para a disciplina de Desenvolvimento Web do curso de Análise e Desenvolvimento de Sistemas (ADS). O site tem como objetivo apresentar informações fascinantes sobre o universo de forma acessível e interativa.
+O **Olhar Cosmico** é um site de divulgação científica focado em Astronomia, desenvolvido como projeto acadêmico para a disciplina de Desenvolvimento Web do curso de Análise e Desenvolvimento de Sistemas (ADS). O site tem como objetivo apresentar informações sobre o universo de forma acessível e interativa.
 
 ### Tema Principal
 **Explorando o Cosmos** - Uma jornada através do universo, desde os planetas do nosso sistema solar até as mais distantes galáxias.
@@ -57,7 +57,7 @@ Desenvolvido como projeto acadêmico para o curso de Análise e Desenvolvimento 
 ## English
 
 ### Description
-**AstroDivulga** is a scientific outreach website focused on Astronomy, developed as an academic project for the Web Development course in the Systems Analysis and Development program. The website aims to present fascinating information about the universe in an accessible and interactive way.
+**Cosmic Gaze** is a scientific outreach website focused on Astronomy, developed as an academic project for the Web Development course in the Systems Analysis and Development program. The website aims to present fascinating information about the universe in an accessible and interactive way.
 
 ### Main Theme
 **Exploring the Cosmos** - A journey through the universe, from the planets in our solar system to the most distant galaxies.
